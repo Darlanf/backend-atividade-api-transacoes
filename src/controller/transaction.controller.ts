@@ -186,7 +186,7 @@ export class TransactionController {
       // }
 
       if (!id) {
-        return RequestError.notFound(
+        return RequestError.notProvided(
           res,
           "Transaction"
         );
